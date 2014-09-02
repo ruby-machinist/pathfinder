@@ -60,11 +60,11 @@ if you want to try it.
 
 ## How to play?
 Robot reads in commands of the following form:
-PLACE X,Y,F
-MOVE
-LEFT
-RIGHT
-REPORT
+* PLACE X,Y,F
+* MOVE
+* LEFT
+* RIGHT
+* REPORT
 
 ### Description
 
