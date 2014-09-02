@@ -20,14 +20,14 @@ This is OO version of the robot. It consists of:
            |                     .-' \
            |                  .-'     \
         .-------------------'       .-
-        | [A -> B]          |    .-`  Interpreter module - it translates user's input into robot's methods
-        |    |              |-.-'
+        | [A -> B]          |    .-`  Interpreter module - it translates user's input into
+        |    |              |-.-'     robot's methods
         |    V              |
-        | [X10Y01FN]        |         Navigation module - it holds current placement, updates target position and facing
-        |    |              |
+        | [X10Y01FN]        |         Navigation module - it holds current placement, updates
+        |    |              |         target position and direction
         |    V              |
-        | [.''...]-----     |         Surface analysis module - it makes a decision whether robot should move or not
-      .-`--------------`-.--'
+        | [.''...]-----     |         Surface analysis module - it makes a decision whether
+      .-`--------------`-.--'         robot should move or not
       |             .-----`o------.
     .-|-.         .-|-.         .-|-.
    |  o  |       |  o  |       |  o  |   And mobility module - it makes the actual move
